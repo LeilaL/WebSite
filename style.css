@@ -1,3 +1,7 @@
+body {
+  scrollbar-face-color: #DE0066;
+}
+
 h2 {
   text-align: center;
   font-family: Charcoal sans-serif;
@@ -34,7 +38,7 @@ h2 {
   border: 4px solid #842167;
   border-radius: 5px;
   display:flex;
-  text-decoration:none;
+  text-decoration: none;
   color: black;
 }
 
@@ -54,6 +58,25 @@ h2 {
 
 #tercero ul {
   display: block;
+}
+
+.list{
+  margin-left: 100px;
+}
+
+.name {
+  margin-left: 50px;
+}
+
+em {
+  color: green;
+  font-style: italic;
+}
+
+.price{
+  margin-left: 180px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 header {
@@ -87,7 +110,7 @@ div {
   float: right;
 }
 
-ul {
+#header {
   list-style-type: none;
   display: flex;
 }
