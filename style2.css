@@ -122,3 +122,16 @@ margin-top: 40px;
 td {
     border: 1px solid black;
 }
+
+footer {
+  margin-bottom: 0;
+  display: inline-block;
+  border-top: 10px solid #842167;
+  width: 100%;
+  margin-top: 30px;
+}
+
+#contact {
+  margin-left: 800px;
+  color: #9F2F8B;
+}
