@@ -1,0 +1,22 @@
+#conteneur{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+}
+img {
+  height: 150px;
+  width: 250px;
+  display: flex;
+}
+#search {
+  height: 25px;
+  width: 25px;
+}
+footer {
+  margin-bottom: 0;
+  display: inline-block;
+  margin-left: 15px;
+}
+#one {
+  margin-left: 800px;
+}
