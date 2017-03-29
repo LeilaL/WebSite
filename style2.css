@@ -109,12 +109,14 @@ h3 {
   display: inline-block;
   float: right;
   width: 400px;
-  height: 400px;
+  height: 550px;
   margin-right: 50px;
 }
 
 table {
 border-collapse: collapse;
+height: 400px;
+margin-top: 40px;
 }
 
 td {
