@@ -12,8 +12,15 @@
 
 <header>
   <img src="http://www.cats.org.uk/images/do-it_logo.png" alt="logo do it"/>
-  <input type="text" name="search" placeholder="Search..">
-  <img id="search" src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-128.png" alt="icon search"/>
+  <input id="myInput" name="q" value="Search..." onfocus="this.value = '';" autocomplete="off" type="text" <button type="submit"><img id="search" src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-128.png" alt="loupe"/></button>
+  <div id="beneficios">
+  <ul>
+  <li> <img id="truck" src="http://fr.vesira.com/skin/frontend/gravdept/acumen/img/icon/shipping.jpg" alt="Livraison gratuite à partir de 150 €" width="30" height="30"> </li>
+  <li> <p> <em>LIVRAISON GRATUITE</em><br> à partir de 150 € </p> </li>
+  <li class="segunda"> <img id="return" src="http://fr.vesira.com/skin/frontend/gravdept/acumen/img/icon/returns.jpg" alt="Vous avez 15 jours pour Retours" width="30" height="30"> </li>
+  <li> <p> <em>RETOURS</em><br> Jusqu'à 15 jours </p> </li>
+  </ul>
+  </div>
 </header>
 
 <section id="conteneur">
