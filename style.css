@@ -1,16 +1,51 @@
+body{
+  background-color:
+}
 #conteneur{
  display: flex;
  flex-direction: column;
  justify-content: space-around;
+}
+header {
+  display: flex;
 }
 img {
   height: 150px;
   width: 250px;
   display: flex;
 }
+#myInput {
+  margin-left: 80px;
+  height: 30px;
+  width: 280px;
+  border-radius: 12px;
+  border: 2px solid #842167;
+  background-color: #DDDDDD;
+  margin-top: 50px;
+}
 #search {
   height: 25px;
   width: 25px;
+  margin-top: 57px;
+}
+div {
+  float: right;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+#truck {
+  height: 30px;
+  width: 30px;
+  margin-top: 15px;
+  margin-left: 220px;
+}
+#return {
+  height: 30px;
+  width: 30px;
+  margin-top: 15px;
+  margin-left: 20px;
 }
 footer {
   margin-bottom: 0;
