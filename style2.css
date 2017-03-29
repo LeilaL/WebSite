@@ -1,0 +1,52 @@
+img {
+  height: 150px;
+  width: 250px;
+  display: flex;
+}
+
+#ordi {
+ height: 250px;
+  width: 400px;
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+#myInput {
+  margin-left: 80px;
+  height: 30px;
+  width: 280px;
+  border-radius: 12px;
+  border: 2px solid #842167;
+  background-color: #DDDDDD;
+  margin-top: 50px;
+}
+
+#search {
+  height: 25px;
+  width: 25px;
+  margin-top: 57px;
+}
+
+#header {
+  list-style-type: none;
+  display: flex;
+}
+
+#truck {
+  height: 30px;
+  width: 30px;
+  margin-top: 15px;
+  margin-left: 220px;
+}
+
+#return {
+  height: 30px;
+  width: 30px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+header {
+ display: flex;
+ border-bottom: 10px solid #842167;
+}
