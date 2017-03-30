@@ -135,4 +135,10 @@ footer {
 
 #one {
   margin-left: 800px;
+  margin-right: 20px;
+}
+
+footer a {
+  color: #9F2F8B;
+
 }
