@@ -53,15 +53,30 @@ footer {
   display: inline-block;
   border-top: 10px solid #842167;
   width: 100%;
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
 #one {
   margin-left: 800px;
-  margin-right: 20px;
 }
 
 footer a {
   color: #9F2F8B;
+}
+
+h2{
+  text-align: center;
+  font-style: italic;
+}
+
+iframe {
+  display: inline-block;
+}
+
+div {
+  display: inline-block;
+  width: 40%;
+  margin-top: 30px;
+  float: left;
 
 }
