@@ -60,3 +60,41 @@ footer a {
   color: #9F2F8B;
   margin-left: 800px;
 }
+
+h2 {
+  text-align: center;
+  font-style: italic;
+}
+
+
+h3{
+  margin-left: 50px;
+  color: #DE0066;
+}
+
+h4 {
+  margin-left: 50px;
+}
+
+.contact {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 25px;
+  background-color: #E6D2E0;
+  border: 4px solid #842167;
+  border-radius: 12px;
+  padding: 25px;
+  height: 150px;
+  width: 350px;
+}
+
+section img {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+em {
+    color: #DE0066;
+}
