@@ -7,9 +7,9 @@ h2 {
 }
 
 #conteneur{
- display: flex;
- flex-direction: column;
- justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 #primero {
@@ -130,6 +130,7 @@ nav {
   width: 500px;
   display: inline-block;
   float: right;
+  color : #551A8B;
 }
 
 nav ul li {
