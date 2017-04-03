@@ -1,0 +1,153 @@
+img {
+  height: 150px;
+  width: 250px;
+  display: flex;
+}
+
+#imprim {
+ height: 250px;
+  width: 400px;
+  margin-top: 60px;
+  margin-left: 30px;
+  display: inline-block;
+}
+
+#myInput {
+  margin-left: 80px;
+  height: 30px;
+  width: 280px;
+  border-radius: 12px;
+  border: 2px solid #842167;
+  background-color: #DDDDDD;
+  margin-top: 50px;
+}
+
+#search {
+  height: 25px;
+  width: 25px;
+  margin-top: 57px;
+}
+
+#header {
+  list-style-type: none;
+  display: flex;
+}
+
+#truck {
+  height: 30px;
+  width: 30px;
+  margin-top: 15px;
+  margin-left: 220px;
+}
+
+#return {
+  height: 30px;
+  width: 30px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+header {
+ display: flex;
+ border-bottom: 10px solid #842167;
+}
+
+#first {
+  display: inline-block;
+}
+
+#info {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+button {
+  background-color: #842167;
+  width: 150px;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  border: 2px;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 15%;
+}
+
+#one {
+  display: inline-block;
+  width: 400px;
+  background-color: #DDDDDD;
+  margin-left: 150px;
+  border: 4px solid #842167;
+  border-radius: 5px;
+  margin-bottom: 150px;
+  vertical-align: top;
+  margin-top: 90px;
+}
+
+#one p {
+  font-weight: bold;
+  display: block;
+  margin-left: 25px;
+}
+
+#yes {
+  color: green;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#two {
+  background-color: #DDDDDD;
+  font-family: Verdana;
+  border: 4px solid #842167;
+  border-radius: 5px;
+  width: 700px;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+h3 {
+  font-style: italic;
+  margin-left: 120px;
+}
+
+#three {
+  border: 4px solid #842167;
+  border-radius: 5px;
+  background-color: #DDDDDD;
+  display: inline-block;
+  float: right;
+  width: 400px;
+  height: 550px;
+  margin-right: 50px;
+}
+
+table {
+border-collapse: collapse;
+height: 400px;
+margin-top: 40px;
+}
+
+td {
+    border: 1px solid black;
+}
+
+footer {
+  margin-bottom: 0;
+  display: inline-block;
+  border-top: 10px solid #842167;
+  width: 100%;
+  margin-top: 30px;
+}
+
+#contact {
+  margin-left: 800px;
+  margin-right: 20px;
+}
+
+footer a {
+  color: #9F2F8B;
+}

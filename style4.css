@@ -4,7 +4,7 @@ img {
   display: flex;
 }
 
-#imprim {
+#dur {
  height: 250px;
   width: 400px;
   margin-top: 60px;
@@ -52,6 +52,10 @@ header {
  border-bottom: 10px solid #842167;
 }
 
+#first {
+  display: inline-block;
+}
+
 button {
   background-color: #842167;
   width: 150px;
@@ -60,34 +64,49 @@ button {
   font-weight: bold;
   border: 2px;
   border-radius: 5px;
-  margin-left: 170px;
+  margin-left: 15%;
   text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+article {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 #one {
   display: inline-block;
   width: 400px;
+  height: 100px;
   background-color: #DDDDDD;
   margin-left: 150px;
   border: 4px solid #842167;
   border-radius: 5px;
   margin-bottom: 150px;
+  vertical-align: top;
+  margin-top: 80px;
 }
 
-#first {
+#one p {
+  font-weight: bold;
+  margin-left: 25px;
+  display: block;
+}
+
+#yes {
   color: green;
   font-style: italic;
-  font-weight: bold;
 }
 
 #two {
+  margin-left: 50px;
   background-color: #DDDDDD;
   font-family: Verdana;
   border: 4px solid #842167;
   border-radius: 5px;
   width: 700px;
-  display: inline-block;
-  margin-left: 50px;
+  display: inline-block
 }
 
 h3 {
@@ -107,13 +126,13 @@ h3 {
 }
 
 table {
-border-collapse: collapse;
-height: 400px;
-margin-top: 40px;
+  border-collapse: collapse;
+  height: 400px;
+  margin-top: 40px;
 }
 
 td {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 footer {

@@ -12,6 +12,7 @@ img {
   display: inline-block;
 }
 
+/*HEADER*/
 #myInput {
   margin-left: 80px;
   height: 30px;
@@ -52,6 +53,7 @@ header {
  border-bottom: 10px solid #842167;
 }
 
+/*BODY*/
 button {
   background-color: #842167;
   width: 150px;
@@ -60,12 +62,15 @@ button {
   font-weight: bold;
   border: 2px;
   border-radius: 5px;
-  margin-left: 170px;
+  margin-left: 15%;
   text-align: center;
+  display: inline-block;
+  vertical-align: middle;
 }
 
-#first {
+#info {
   display: inline-block;
+  vertical-align: middle;
 }
 
 #one {
@@ -75,15 +80,24 @@ button {
   margin-left: 150px;
   border: 4px solid #842167;
   border-radius: 5px;
+  vertical-align: top;
+  margin-top: 80px;
 }
 
 #one p {
   font-weight: bold;
+  display: block;
+  margin-left: 25px;
+}
+
+#yes {
+  color: green;
+  font-style: italic;
 }
 
 #first {
-  color: green;
-  font-style: italic;
+  display: inline-block;
+  vertical-align: top;
 }
 
 #two {
@@ -122,6 +136,7 @@ td {
     border: 1px solid black;
 }
 
+/*FOOTER*/
 footer {
   margin-bottom: 0;
   display: inline-block;
